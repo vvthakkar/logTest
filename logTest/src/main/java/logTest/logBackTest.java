@@ -10,7 +10,7 @@ public class logBackTest {
 	public static void main(String[] args) {
 		Logger logger=LoggerFactory.getLogger(logBackTest.class);
 		logger.debug("This is debug message");
-		logger.info("log message from info" +logBackTest.class.hashCode());
+		//logger.info("log message from info" +logBackTest.class.hashCode());
 		
 		
 		//logger.debug("Hello this is a debug message");
