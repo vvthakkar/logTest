@@ -13,8 +13,8 @@ public class logBackTest {
 		logger.info("log message from info" +logBackTest.class.hashCode());
 		
 		
-		logger.debug("Hello this is a debug message");
-		logger.info("Hello this is an info message");
+		//logger.debug("Hello this is a debug message");
+		//logger.info("Hello this is an info message");
 	  	   	
 	}
 }
